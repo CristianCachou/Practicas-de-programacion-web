@@ -1,0 +1,142 @@
+<html>
+<body>
+<h3>Listas ordenadas</h3>
+<ol>
+<li>Naranjas</li>
+<li>Manzanas</li>
+<li>Bananas</li>
+</ol>
+
+<hr>
+<h3>Listas desordenadas</h3>
+<ul>
+<li>Tomates</li>
+<li>Pepinos</li>
+<li>cebollas</li>
+</ul>
+
+<hr>
+<h3>Listas de definicion</h3>
+<dt>Chocolate</dt>
+<dd>Elaborado a base de cacao</dd>
+<dt>Caramelo</dt>
+<dd>Elaborado a base de azucar</dd>
+</dl>
+
+<hr>
+<h3>Enlaces o link</h3>
+<a href="/http:www.virtualnauta.com/">La home de virtualnauta</a> 
+
+<hr>
+<!--El atributo target se utiliza para definir donde queremos que se habra el enlace-->
+<h3>Target</h3>
+<a href="http:www.virtualnauta.com/"target="_blank">La home de virtualnauta</a>
+
+<hr>
+<!--Nos lleva a otra pagina determinada -->
+<h3>Name</h3>
+<a name="destino-uno">Capitulo 1</a><!--Definimos un destino en el capitulo 1 -->
+<a href="http://wwww.misitio.com/uno.html#destino-uno">Ir al capitulo 1</a>
+<!--En caso que el enlace este definido en el mismo documento-->
+<br>
+<a href="/#destino-uno">Ir al capitulo 1</a>
+
+<hr>
+<h3>Mandar un email</h3>
+<a href="mailto:angelsistemaz@gmail.com">Mandar email</a>
+
+<hr>
+<h3>Enlace apartir de una imagen</h3>
+<!--Para hacer una busqueda apartir de una imagen-->
+<a href="http://www.google.com/"><img src="C:\Users\Cristian\Documents\BLOC DE NOTAS/ciclis.jpeg"></a>
+<!--Se coloca el nombre de la imagenndespues de la ruta de la imagen -->
+
+<hr>
+<h3>Formularios.</h3>
+<!--Son utilizados para que el usuario ingrese datos-->
+<form action="URL"method="valor">
+</form>
+
+<hr>
+<h3>Etiqueta Imput</h3>
+<form>
+<input type="control"atributo="valor">
+</form>
+
+<hr>
+<h3>El control text</h3>
+<!--Crea un control que nos premite ingresar un texto en la linea-->
+<form action="datos.php"method="get">
+Nombre:<input type="text"name="nombre">
+Apellido:<input type="text"name="apellido">
+<!--NOTA: la propiedad name le asigna un nombre al elemento que luego puede ser usado en scrip o hojas de estilo-->
+</form>
+
+<hr>
+<h3>Radio</h3>
+<!--Seleccionar una sola opcion entre muchas posibilidades-->
+<form action="edades.asp"method="post">
+¿Edad?
+<br>
+<input type="radio"name="edad"value="menor">Menor de 17
+<input type="radio"name="edad"value="adulto">Entre 18 y 60
+<input type="radio"name="edad"value="mayor">Mayor de 61
+</form>
+
+<hr>
+<h3>Chek Box</h3>
+<form action="hobbie.php"method="get">
+¿Pasatiempos?
+<br>
+<input type="checkbox"name="pasa"value="tv">TV.
+<input type="checkbox"name="pasa"value="libros">Libros.
+<input type="checkbox"name="pasa"value="musica">Musica.
+</form>
+
+<hr>
+<h3>El control "password"</h3>
+<!--Es utilizado para ingresar contraseñas-->
+<form action="verificacion.php"method="post">
+Nombre:<input type="text"name="nombre">
+Password:<input type="password"name"pass">
+</form>
+
+<hr>
+<h3>El control "submit" y el control "reset"</h3>
+<!--Subit para envir y Reset para borrar-->
+<form action="datos_personales.php"method="post">
+Nombre:<input type="text"name="nombre">
+Contraseña:<input type="password"name="secreto">
+<input type="submit"value="Enviar">
+<input type="reset"value="Borra">
+</form>
+
+<hr>
+<h3>El control "File"</h3>
+<!--Nos permite enviar archivos por medio de un formulario-->
+<form action="archivo.php"method="post">
+Ingrese la foto:<input type="file"name="foto">
+</form>
+
+<hr>
+<h3>El control "hidden"</h3>
+<form action="oculto.php"method="post">
+Nombre:<input type="text"name="nombre">
+Contraseña:<input type="password"name="contra">
+<input type="hidden"value="cookie">
+</form>
+
+<hr>
+<h3>El control "Image"</h3>
+<!--Nos permite utilizar la iamgen personalizada en un boton-->
+<form action="archivo.php"method="post">
+Nombre:<input type="text"name="nombre">
+Contraseña:<input type="password"name="contra">
+<input type="image"src="/C:\Users\Cristian\Documents\BLOC DE NOTAS/Boton.jpg">
+</form>
+
+<hr>
+<h3></h3>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>Tabla basica de 3 columnas</title>
+</head>
+<body>
+
+<TABLE BORDER>
+<TR>
+       <TD>A</TD><TD>B</TD><TD>C</TD>
+</TR>
+<TR>
+       <TD>D</TD><TD>E</TD><TD>F</TD>
+</TR>
+</TABLE>
+
+
+<hr>
+<p>
+<TABLE BORDER>
+<TR>
+       <TD>Item 1</TD>
+       <TD ROWSPAN=2>Item 2</TD>
+       <TD>Item 3</TD>
+</TR>   
+<TR>
+       <TD>Item 4</TD> <TD>Item 5</TD>
+</TR>
+</TABLE>
+
+<hr>
+<p>
+<TABLE BORDER>
+<TR>   
+      <TD ROWSPAN=2>Item 1</TD>
+      <TD>Item 2</TD> <TD>Item 3</TD> <TD>Item 4</TD>
+</TR>
+<TR>
+      <TD>Item 5</TD> <TD>Item 6</TD> <TD>Item 7</TD>
+</TR>
+</TABLE>
+
+<hr>
+<p>
+<h3>Ejemplo de columna expandida</hr>
+<TABLE BORDER>
+<TR>
+     <TD>Item 1</TD>
+     <TD COLSPAN>Item 2</TD>
+</TR>
+<TR>
+     <TD>Item 3</TD> <TD>Item 4</TD> <TD>Item 5</TD>
+</TR>
+</TABLE>
+
+<hr>
+<p>
+<h3>Tabla con cabeceras</hr>
+<TABLE BORDER>
+<TR>
+     <TH>Head 1</TH> <TH>Head 2</TH> <TH>Head 3</TH>
+</TR>
+<TR>
+     <TD>A</TD> <TD>B</TD> <TD>C</TD>
+</TR>
+<TR>
+     <TD>D</TD> <TD>E</TD> <TD>F</TD>
+</TR>
+</TABLE>
+
+
+<hr>
+<p>
+<h3>Combinacion de columna expandida y cabecera</h3>
+<TABLE BORDER>
+<TR>
+     <TH COLSPAN=2>Head 1</TH>
+     <TH COLSPAN=2>Head 2</TH> 
+</TR>
+<TR>
+     <TD>A</TD> <TD>B</TD> <TD>C</TD> <TD>D</TD>
+</TR>
+<TR>
+     <TD>E</TD> <TD>F</TD> <TD>G</TD> <TD>H</TD>
+</TR>
+</TABLE>
+
+<hr>
+<p>
+<h3>Combinacion de columnas multiples y cabeceras expandidas</h3>
+<TABLE BORDER>
+  <TR>
+     <TH COLSPAN=2>Head 1</TH>
+     <TH COLSPAN=2>Head 2</TH>
+  </TR>
+  <TR>
+     <TH>Head 3</TH> <TH>Head 4</TH>
+     <TH>Head 5</TH> <TH>Head 6</TH>
+  </TR>
+  <TR>
+     <TD>A</TD> <TD>B</TD> <TD>C</TD> <TD>D</TD>
+  </TR>
+  <TR>
+     <TD>E</TD> <TD>F</TD> <TD>G</TD> <TD>H</TD>
+  </TR>
+</TABLE>
+
+
+<hr>
+<p>
+<h3>Cabeceras laterales</h3>
+<TABLE BORDER>
+  <TR><TH>Head 1</TH>
+     <TD>Item 1</TD> <TD>Item 2</TD> <TD>Item 3</TD></TR>
+  <TR><TH>Head 2</TH>
+     <TD>Item 4</TD> <TD>Item 5</TD> <TD>Item 6</TD></TR>
+  <TR><TH>Head 3</TH>
+     <TD>Item 7</TD> <TD>Item 8</TD> <TD>Item 9</TD></TR>
+</TABLE>
+
+
+<hr>
+<p>
+<h3>Combinacion de cabeceras laterales y lineas expandidas</h3>
+<TABLE BORDER>
+  <TR><TH ROWSPAN=2>Head 1</TH>
+     <TD>Item 1</TD> <TD>Item 2</TD> <TD>Item 3</TD> <TD>Item 4</TD>
+  </TR>
+  <TR><TD>Item 5</TD> <TD>Item 6</TD> <TD>Item 7</TD> <TD>Item 8</TD>
+  </TR>
+  <TR><TH>Head 2</TH>
+     <TD>Item 9</TD> <TD>Item 10</TD> <TD>Item 3</TD> <TD>Item 11</TD>
+  </TR>
+</TABLE>
+
+
+<hr>
+<p>
+<h3>Combinacion de cabeceras superiores laterales. Tabla centrada. Contenidos centrados. Titulo al pie.</h3>
+<CENTER>
+<TABLE BORDER>
+<CAPTION ALIGN=bottom>Resumen de tablas</CAPTION>
+  <TR>
+     <TD><TH>TABLE</TH> <TH>TR</TH> <TH>TD</TH> <TH>TH</TH> <TH>CAPTION</TH></TD
+  </TR>
+
+  <TR ALIGN=CENTER>
+     <TH>BORDER</TH> <TD>X</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+     <TH>ROWSPAN</TH> <TD>-</TD> <TD>-</TD> <TD>X</TD> <TD>X</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>COLSPAN</TH> <TD>-</TD> <TD>-</TD> <TD>X</TD> <TD>X</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>ALIGN</TH> <TD>-</TD> <TD>X</TD> <TD>X</TD> <TD>X</TD> <TD>X</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>VALING</TH> <TD>-</TD> <TD>-</TD> <TD>X</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>WIDTH</TH> <TD>X</TD> <TD>-</TD> <TD>X</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>HEIGHT</TH> <TD>X</TD> <TD>-</TD> <TD>X</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>CELLPADDING</TH> <TD>X</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+  <TR ALIGN=CENTER>
+      <TH>CELLSPACING</TH> <TD>X</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD>
+  </TR>
+
+</TABLE>
+</CENTER>
+
+
+
+<hr>
+<p>
+<h3>Ejemplo con todos los elementos y parametros</h3>
+<TABLE BORDER>
+  <TR>  <TD><TH ROWSPAN=2></TH>
+        <TH COLSPAN=2>Media</TH></TD>
+  </TR>
+  <TR>  <TD><TH>Altura</TH> <TH>Peso</TH></TD>
+  </TR>
+  <TR>  <TH ROWSPAN=2>Sexo</TH>
+        <TH>Hombres</TH> <TD>1.9</TD> <TD>85</TD>
+  </TR>
+  <TR>  <TD><TH>Mujeres</TH> <TD>1.7</TD>60</TD>
+  </TR>
+</TABLE>
+
+
+<hr>
+<p>
+
+</body>
+</html>
